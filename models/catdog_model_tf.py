@@ -2,7 +2,8 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 import matplotlib.pyplot as plt
-from tensorflow.keras import layers, models
+import keras
+from tensorflow.keras import layers, models, Input
 
 
 class Classes:
@@ -16,38 +17,38 @@ class Classes:
         return len(self.classes)
 
 
-class Model(tf.keras.Model):
-    def __init__(self):
-        super().__init__()
-        self.resize = layers.Resizing(60, 60)
-        self.normalize = layers.Rescaling(1.0 / 255)
-        self.standardize = layers.Normalization(
-            mean=[0.5, 0.5, 0.5], variance=[0.25, 0.25, 0.25]
-        )
-        self.conv1 = layers.Conv2D(6, (5, 5), activation="relu")
-        self.pool = layers.MaxPooling2D((2, 2))
-        self.conv2 = layers.Conv2D(16, (5, 5), activation="relu")
-        self.flatten = layers.Flatten()
-        self.fc1 = layers.Dense(120, activation="relu")
-        self.fc2 = layers.Dense(84, activation="relu")
-        self.fc3 = layers.Dense(2)  # logits
+class Transform:
 
-    def call(self, x):
-        x = self.resize(x)
-        x = self.normalize(x)
-        x = self.pool(self.conv1(x))
-        x = self.pool(self.conv2(x))
-        x = self.flatten(x)
-        x = self.fc1(x)
-        x = self.fc2(x)
-        x = self.fc3(x)
-        return x
+    def __call__(self, pic):
+        pic = tf.image.resize(pic, (60, 60))
+        pic = pic / 255
+        return pic
+
+
+@keras.saving.register_keras_serializable(package="Custom")
+class Model(keras.Sequential):
+    def __init__(self, build_model=True, **kwargs):
+        super().__init__(**kwargs)
+        if build_model:
+            self.add(layers.InputLayer(input_shape=(60, 60, 3), name="catdog_input"))
+            self.add(layers.Conv2D(6, 5, activation="relu"))
+            self.add(layers.MaxPooling2D())
+            self.add(layers.Conv2D(16, 5, activation="relu"))
+            self.add(layers.MaxPooling2D())
+            self.add(layers.Flatten())
+            self.add(layers.Dense(120, activation="relu"))
+            self.add(layers.Dense(84, activation="relu"))
+            self.add(layers.Dense(2))
+
+    @classmethod
+    def from_config(cls, config):
+        return cls(build_model=False, **config)
 
 
 def predict_image(model, path):
     classes = Classes()
     img = Image.open(path)
-    processed_image = tf.keras.utils.img_to_array(img)
+    processed_image = Transform()(img)
     processed_image = tf.expand_dims(processed_image, 0)
 
     output = model.predict(processed_image)
