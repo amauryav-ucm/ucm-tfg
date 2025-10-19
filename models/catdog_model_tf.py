@@ -25,24 +25,22 @@ class Transform:
         return pic
 
 
-@keras.saving.register_keras_serializable(package="Custom")
-class Model(keras.Sequential):
-    def __init__(self, build_model=True, **kwargs):
-        super().__init__(**kwargs)
-        if build_model:
-            self.add(layers.InputLayer(input_shape=(60, 60, 3), name="catdog_input"))
-            self.add(layers.Conv2D(6, 5, activation="relu"))
-            self.add(layers.MaxPooling2D())
-            self.add(layers.Conv2D(16, 5, activation="relu"))
-            self.add(layers.MaxPooling2D())
-            self.add(layers.Flatten())
-            self.add(layers.Dense(120, activation="relu"))
-            self.add(layers.Dense(84, activation="relu"))
-            self.add(layers.Dense(2))
-
-    @classmethod
-    def from_config(cls, config):
-        return cls(build_model=False, **config)
+def create_model():
+    model = keras.Sequential(
+        name="catdog_model",
+        layers=[
+            layers.InputLayer(input_shape=(60, 60, 3)),
+            layers.Conv2D(6, 5, activation="relu"),
+            layers.MaxPooling2D(),
+            layers.Conv2D(16, 5, activation="relu"),
+            layers.MaxPooling2D(),
+            layers.Flatten(),
+            layers.Dense(120, activation="relu"),
+            layers.Dense(84, activation="relu"),
+            layers.Dense(2, activation="softmax"),
+        ],
+    )
+    return model
 
 
 def predict_image(model, path):
@@ -52,7 +50,9 @@ def predict_image(model, path):
     processed_image = tf.expand_dims(processed_image, 0)
 
     output = model.predict(processed_image)
-    probs = tf.nn.softmax(output[0])
+    print(output)
+    probs = tf.nn.softmax(output)
+    print(probs)
     predicted = np.argmax(probs)
 
     plt.imshow(img)
