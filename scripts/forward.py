@@ -64,11 +64,15 @@ def predict_image(model, path):
         output = model(processed_image)
         probs = F.softmax(output, dim=1)
         _, predicted = torch.max(output, 1)
-
-        plt.imshow(img)
-        plt.xlabel(
+        print(
             f"Predicted: {classes[predicted.item()]} ({100*float(probs[0][predicted]):.2f}%)"
         )
+
+
+"""         plt.imshow(img)
+        plt.xlabel(
+            f"Predicted: {classes[predicted.item()]} ({100*float(probs[0][predicted]):.2f}%)"
+        ) """
 
 
 PATH = sys.argv[1]
