@@ -75,4 +75,4 @@ PATH = "../saved_models/pytorch/catdog_20_epoch.pth"
 model = Model()
 model.load_state_dict(torch.load(PATH, weights_only=True))
 
-predict_image(model, "")
+predict_image(model, sys.argv[1])
