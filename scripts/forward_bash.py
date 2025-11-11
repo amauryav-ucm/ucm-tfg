@@ -1,8 +1,7 @@
 import torch
 import torch.nn as nn
 from PIL import Image
-import sys, socket, os, subprocess
-import matplotlib.pyplot as plt
+import sys, os
 import torch.nn.functional as F
 import torchvision.transforms as transforms
 
