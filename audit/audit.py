@@ -6,15 +6,15 @@ import json
 import sys
 
 init_pids = set(psutil.pids())
-instance = subprocess.Popen(sys.argv[1:])
+instance = subprocess.Popen(sys.argv[2:])
 
 t = 0
-step = 0.1
+step = 0.025
 processes = {}
 
 start_time = time.time()
 
-while time.time() - start_time < 10:
+while time.time() - start_time < int(sys.argv[1]):
     curr_pids = set(psutil.pids())
     new_pids = curr_pids - init_pids
     for pid in new_pids:

@@ -1,0 +1,210 @@
+{
+    "3098": {
+        "0": {
+            "rss": 794624,
+            "cpu": 44.8,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.1": {
+            "rss": 91037696,
+            "cpu": 49.95,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.2": {
+            "rss": 157478912,
+            "cpu": 74.85,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.30000000000000004": {
+            "rss": 177549312,
+            "cpu": 44.9,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.4": {
+            "rss": 198115328,
+            "cpu": 49.9,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.5": {
+            "rss": 207912960,
+            "cpu": 44.95,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.6": {
+            "rss": 220577792,
+            "cpu": 49.9,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.7": {
+            "rss": 241242112,
+            "cpu": 49.9,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.7999999999999999": {
+            "rss": 263192576,
+            "cpu": 49.9,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.8999999999999999": {
+            "rss": 281010176,
+            "cpu": 49.9,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.9999999999999999": {
+            "rss": 294739968,
+            "cpu": 59.9,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "1.0999999999999999": {
+            "rss": 315748352,
+            "cpu": 49.9,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "1.2": {
+            "rss": 315748352,
+            "cpu": 49.9,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        }
+    },
+    "3101": {
+        "2.2000000000000006": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "2.3000000000000007": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "2.400000000000001": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "2.500000000000001": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "2.600000000000001": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "2.700000000000001": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "2.800000000000001": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "2.9000000000000012": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "3.0000000000000013": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "3.1000000000000014": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "3.2000000000000015": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "3.3000000000000016": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "3.4000000000000017": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "3.5000000000000018": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "3.600000000000002": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "3.700000000000002": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "3.800000000000002": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "3.900000000000002": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "4.000000000000002": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "4.100000000000001": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        },
+        "4.200000000000001": {
+            "rss": 0,
+            "cpu": 0.0,
+            "status": "idle",
+            "cmd": ""
+        }
+    }
+}

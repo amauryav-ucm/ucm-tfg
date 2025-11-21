@@ -1,0 +1,212 @@
+{
+    "423592": {
+        "0": {
+            "rss": 4837376,
+            "cpu": 5.61875,
+            "status": "running",
+            "cmd": "python3 scripts/forward_bash.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.1": {
+            "rss": 93302784,
+            "cpu": 26.85,
+            "status": "running",
+            "cmd": "python3 scripts/forward_bash.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.2": {
+            "rss": 156000256,
+            "cpu": 28.09375,
+            "status": "running",
+            "cmd": "python3 scripts/forward_bash.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.30000000000000004": {
+            "rss": 167743488,
+            "cpu": 6.24375,
+            "status": "running",
+            "cmd": "python3 scripts/forward_bash.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.4": {
+            "rss": 184635392,
+            "cpu": 6.86875,
+            "status": "running",
+            "cmd": "python3 scripts/forward_bash.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.5": {
+            "rss": 196845568,
+            "cpu": 6.24375,
+            "status": "running",
+            "cmd": "python3 scripts/forward_bash.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.6": {
+            "rss": 229453824,
+            "cpu": 6.24375,
+            "status": "running",
+            "cmd": "python3 scripts/forward_bash.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.7": {
+            "rss": 275304448,
+            "cpu": 6.24375,
+            "status": "running",
+            "cmd": "python3 scripts/forward_bash.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.7999999999999999": {
+            "rss": 285736960,
+            "cpu": 6.24375,
+            "status": "running",
+            "cmd": "python3 scripts/forward_bash.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.8999999999999999": {
+            "rss": 309084160,
+            "cpu": 6.24375,
+            "status": "running",
+            "cmd": "python3 scripts/forward_bash.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.9999999999999999": {
+            "rss": 308162560,
+            "cpu": 6.24375,
+            "status": "running",
+            "cmd": "python3 scripts/forward_bash.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        }
+    },
+    "423617": {
+        "0.5": {
+            "rss": 2224128,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "sleep 1"
+        },
+        "0.6": {
+            "rss": 2224128,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "sleep 1"
+        }
+    },
+    "423612": {
+        "0.5": {
+            "rss": 1683456,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "/bin/sh -c \"/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh\" 414651 423590"
+        },
+        "0.6": {
+            "rss": 1683456,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "/bin/sh -c \"/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh\" 414651 423590"
+        }
+    },
+    "423613": {
+        "0.5": {
+            "rss": 3854336,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "/bin/bash /usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh 414651 423590"
+        },
+        "0.6": {
+            "rss": 3854336,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "/bin/bash /usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh 414651 423590"
+        }
+    },
+    "423633": {
+        "0.8999999999999999": {
+            "rss": 2138112,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "nc 192.168.0.2 1234"
+        },
+        "0.9999999999999999": {
+            "rss": 2138112,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "nc 192.168.0.2 1234"
+        },
+        "1.0999999999999999": {
+            "rss": 2138112,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "nc 192.168.0.2 1234"
+        },
+        "1.2": {
+            "rss": 2138112,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "nc 192.168.0.2 1234"
+        },
+        "1.3": {
+            "rss": 2138112,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "nc 192.168.0.2 1234"
+        },
+        "1.4000000000000001": {
+            "rss": 2138112,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "nc 192.168.0.2 1234"
+        },
+        "1.5000000000000002": {
+            "rss": 2138112,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "nc 192.168.0.2 1234"
+        },
+        "1.6000000000000003": {
+            "rss": 2138112,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "nc 192.168.0.2 1234"
+        }
+    },
+    "423632": {
+        "0.8999999999999999": {
+            "rss": 1548288,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "/bin/sh"
+        },
+        "0.9999999999999999": {
+            "rss": 1548288,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "/bin/sh"
+        },
+        "1.0999999999999999": {
+            "rss": 1548288,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "/bin/sh"
+        },
+        "1.2": {
+            "rss": 1548288,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "/bin/sh"
+        },
+        "1.3": {
+            "rss": 1548288,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "/bin/sh"
+        },
+        "1.4000000000000001": {
+            "rss": 1548288,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "/bin/sh"
+        },
+        "1.5000000000000002": {
+            "rss": 1548288,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "/bin/sh"
+        },
+        "1.6000000000000003": {
+            "rss": 1548288,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "/bin/sh"
+        }
+    }
+}

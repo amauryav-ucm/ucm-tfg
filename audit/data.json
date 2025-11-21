@@ -1,154 +1,202 @@
 {
-    "418965": {
+    "423742": {
         "0": {
-            "rss": 1986560,
+            "rss": 3682304,
             "cpu": 5.61875,
             "status": "running",
-            "cmd": "python3 ../scripts/catdog.py ../saved_models/pytorch/catdog_20_epoch.pth ../img/cat.jpg"
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.025": {
+            "rss": 70799360,
+            "cpu": 6.86875,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.05": {
+            "rss": 117301248,
+            "cpu": 82.68125,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.07500000000000001": {
+            "rss": 156000256,
+            "cpu": 40.575,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
         },
         "0.1": {
-            "rss": 103276544,
-            "cpu": 63.68125,
-            "status": "running",
-            "cmd": "python3 ../scripts/catdog.py ../saved_models/pytorch/catdog_20_epoch.pth ../img/cat.jpg"
-        },
-        "0.2": {
-            "rss": 160940032,
-            "cpu": 5.61875,
-            "status": "running",
-            "cmd": "python3 ../scripts/catdog.py ../saved_models/pytorch/catdog_20_epoch.pth ../img/cat.jpg"
-        },
-        "0.30000000000000004": {
-            "rss": 179724288,
+            "rss": 161243136,
             "cpu": 6.24375,
             "status": "running",
-            "cmd": "python3 ../scripts/catdog.py ../saved_models/pytorch/catdog_20_epoch.pth ../img/cat.jpg"
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
         },
-        "0.4": {
-            "rss": 195383296,
-            "cpu": 5.61875,
+        "0.125": {
+            "rss": 170450944,
+            "cpu": 6.8625,
             "status": "running",
-            "cmd": "python3 ../scripts/catdog.py ../saved_models/pytorch/catdog_20_epoch.pth ../img/cat.jpg"
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
         },
-        "0.5": {
-            "rss": 206024704,
+        "0.15": {
+            "rss": 181137408,
+            "cpu": 6.24375,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.175": {
+            "rss": 192544768,
+            "cpu": 6.24375,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.19999999999999998": {
+            "rss": 207101952,
+            "cpu": 6.86875,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.22499999999999998": {
+            "rss": 247906304,
             "cpu": 6.2375,
             "status": "running",
-            "cmd": "python3 ../scripts/catdog.py ../saved_models/pytorch/catdog_20_epoch.pth ../img/cat.jpg"
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
         },
-        "0.6": {
-            "rss": 219197440,
-            "cpu": 6.2375,
+        "0.24999999999999997": {
+            "rss": 277471232,
+            "cpu": 6.24375,
             "status": "running",
-            "cmd": "python3 ../scripts/catdog.py ../saved_models/pytorch/catdog_20_epoch.pth ../img/cat.jpg"
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
         },
-        "0.7": {
-            "rss": 250458112,
-            "cpu": 6.2375,
+        "0.27499999999999997": {
+            "rss": 285716480,
+            "cpu": 6.24375,
             "status": "running",
-            "cmd": "python3 ../scripts/catdog.py ../saved_models/pytorch/catdog_20_epoch.pth ../img/cat.jpg"
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
         },
-        "0.7999999999999999": {
-            "rss": 271138816,
-            "cpu": 6.2375,
+        "0.3": {
+            "rss": 288337920,
+            "cpu": 11.8625,
             "status": "running",
-            "cmd": "python3 ../scripts/catdog.py ../saved_models/pytorch/catdog_20_epoch.pth ../img/cat.jpg"
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
         },
-        "0.8999999999999999": {
-            "rss": 283721728,
-            "cpu": 6.2375,
+        "0.325": {
+            "rss": 308957184,
+            "cpu": 6.24375,
             "status": "running",
-            "cmd": "python3 ../scripts/catdog.py ../saved_models/pytorch/catdog_20_epoch.pth ../img/cat.jpg"
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
         },
-        "0.9999999999999999": {
-            "rss": 309096448,
-            "cpu": 6.2375,
+        "0.35000000000000003": {
+            "rss": 309088256,
+            "cpu": 6.24375,
             "status": "running",
-            "cmd": "python3 ../scripts/catdog.py ../saved_models/pytorch/catdog_20_epoch.pth ../img/cat.jpg"
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
+        },
+        "0.37500000000000006": {
+            "rss": 307982336,
+            "cpu": 6.24375,
+            "status": "running",
+            "cmd": "python3 scripts/catdog.py saved_models/pytorch/catdog_20_epoch.pth img/dog.jpg"
         }
     },
-    "418993": {
-        "0.9999999999999999": {
-            "rss": 2220032,
-            "cpu": 0.0,
-            "status": "sleeping",
-            "cmd": "sleep 1"
-        },
-        "1.0999999999999999": {
-            "rss": 2220032,
-            "cpu": 0.0,
-            "status": "sleeping",
-            "cmd": "sleep 1"
-        }
-    },
-    "418988": {
-        "0.9999999999999999": {
+    "423762": {
+        "0.19999999999999998": {
             "rss": 1683456,
             "cpu": 0.0,
             "status": "sleeping",
-            "cmd": "/bin/sh -c \"/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh\" 414651 418963"
+            "cmd": "/bin/sh -c \"/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh\" 414651 423741"
         },
-        "1.0999999999999999": {
+        "0.22499999999999998": {
             "rss": 1683456,
             "cpu": 0.0,
             "status": "sleeping",
-            "cmd": "/bin/sh -c \"/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh\" 414651 418963"
-        }
-    },
-    "418989": {
-        "0.9999999999999999": {
-            "rss": 3874816,
-            "cpu": 0.0,
-            "status": "sleeping",
-            "cmd": "/bin/bash /usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh 414651 418963"
+            "cmd": "/bin/sh -c \"/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh\" 414651 423741"
         },
-        "1.0999999999999999": {
-            "rss": 3874816,
+        "0.24999999999999997": {
+            "rss": 1683456,
             "cpu": 0.0,
             "status": "sleeping",
-            "cmd": "/bin/bash /usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh 414651 418963"
+            "cmd": "/bin/sh -c \"/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh\" 414651 423741"
         }
     },
-    "419016": {
-        "5.099999999999998": {
+    "423763": {
+        "0.19999999999999998": {
+            "rss": 3817472,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "/bin/bash /usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh 414651 423741"
+        },
+        "0.22499999999999998": {
+            "rss": 3817472,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "/bin/bash /usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh 414651 423741"
+        }
+    },
+    "423767": {
+        "0.19999999999999998": {
             "rss": 2224128,
             "cpu": 0.0,
             "status": "sleeping",
             "cmd": "sleep 1"
         },
-        "5.1999999999999975": {
+        "0.22499999999999998": {
             "rss": 2224128,
             "cpu": 0.0,
             "status": "sleeping",
             "cmd": "sleep 1"
         }
     },
-    "419010": {
-        "5.099999999999998": {
+    "423784": {
+        "0.9500000000000005": {
             "rss": 1683456,
             "cpu": 0.0,
             "status": "sleeping",
-            "cmd": "/bin/sh -c \"/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh\" 414651 418963 418965"
+            "cmd": "/bin/sh -c \"/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh\" 414651 423741"
         },
-        "5.1999999999999975": {
+        "0.9750000000000005": {
             "rss": 1683456,
             "cpu": 0.0,
             "status": "sleeping",
-            "cmd": "/bin/sh -c \"/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh\" 414651 418963 418965"
+            "cmd": "/bin/sh -c \"/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh\" 414651 423741"
+        },
+        "1.0000000000000004": {
+            "rss": 1683456,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "/bin/sh -c \"/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh\" 414651 423741"
         }
     },
-    "419011": {
-        "5.099999999999998": {
-            "rss": 3768320,
+    "423785": {
+        "0.9500000000000005": {
+            "rss": 3874816,
             "cpu": 0.0,
             "status": "sleeping",
-            "cmd": "/bin/bash /usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh 414651 418963 418965"
+            "cmd": "/bin/bash /usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh 414651 423741"
         },
-        "5.1999999999999975": {
-            "rss": 3768320,
+        "0.9750000000000005": {
+            "rss": 3874816,
             "cpu": 0.0,
             "status": "sleeping",
-            "cmd": "/bin/bash /usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh 414651 418963 418965"
+            "cmd": "/bin/bash /usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh 414651 423741"
+        },
+        "1.0000000000000004": {
+            "rss": 3874816,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "/bin/bash /usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh 414651 423741"
+        }
+    },
+    "423789": {
+        "0.9500000000000005": {
+            "rss": 2224128,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "sleep 1"
+        },
+        "0.9750000000000005": {
+            "rss": 2224128,
+            "cpu": 0.0,
+            "status": "sleeping",
+            "cmd": "sleep 1"
         }
     }
 }
